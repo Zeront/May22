@@ -10,10 +10,18 @@
 		<meta name="copyright" content="(c) Copyright Nelson Costa 2015."/>
 		<!--Import foundation.css-->
 		<link rel="stylesheet" href="assets/css/foundation.css"/>
+		<!--Import app.css-->
+		<link rel="stylesheet" href="assets/css/app.css"/>
 		<!--Import modernizr.js-->
 		<script src="assets/js/vendor/modernizr.js"></script>
 	</head>
 	<body>
+		<div class="row">
+			<div class="large-12 columns">
+				<h1><img src="http://placehold.it/200x50&text=logo"/></h1>
+			</div>
+		</div>
+		<hr/>
 		<footer></footer>
 		<!--Import jquery.js-->
 		<script src="assets/js/vendor/jquery.js"></script>
