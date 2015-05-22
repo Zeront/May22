@@ -18,10 +18,25 @@
 	<body>
 		<div class="row">
 			<div class="large-12 columns">
-				<h1><img src="http://placehold.it/200x50&text=logo"/></h1>
+				<h1><img class="logo" src="http://placehold.it/200x50&text=logo"/></h1>
 			</div>
 		</div>
 		<hr/>
+		<div class="row">
+			<div class="large-4 columns">
+				<img class="picture" src="http://placehold.it/300x300"/>
+			</div>
+			<div class="info large-8 columns">
+				<h3 class="name">Nelson Costa</h3>
+				<h5>Técnico de Gestão de Redes e Sistemas Informáticos</h5>
+				<p>19 anos - Porto, Portugal</p>
+			</div>
+			<hr/>
+		</div>
+		
+		
+		
+		
 		<footer></footer>
 		<!--Import jquery.js-->
 		<script src="assets/js/vendor/jquery.js"></script>
