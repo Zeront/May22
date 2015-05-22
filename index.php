@@ -33,6 +33,11 @@
 			</div>
 			<hr/>
 		</div>
+		<div class="row">
+			<div class="skills large-6 columns">
+				<h4>Skills</h4>
+			</div>
+		</div>
 		
 		
 		
