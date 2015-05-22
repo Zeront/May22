@@ -36,6 +36,7 @@
 		<div class="row">
 			<div class="skills large-6 columns">
 				<h4>Skills</h4>
+				
 			</div>
 		</div>
 		
@@ -52,8 +53,3 @@
 		</script>
 	</body>
 </htm>
-
-<?php
-	$myName = "Nelson";
-	echo $myName;
-?>

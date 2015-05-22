@@ -1,5 +1,9 @@
 body {
-	
+  background: -webkit-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+  background: -moz-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+  background: -ms-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+  background: -o-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+  background: linear-gradient(90deg, #134E5E 10%, #71B280 90%);   
 }
 
 .logo {
