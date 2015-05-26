@@ -1,9 +1,15 @@
 body {
-  background: -webkit-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
-  background: -moz-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
-  background: -ms-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
-  background: -o-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
-  background: linear-gradient(90deg, #134E5E 10%, #71B280 90%);   
+	/*background: -webkit-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+	background: -moz-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+	background: -ms-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+	background: -o-linear-gradient(90deg, #134E5E 10%, #71B280 90%);
+	background: linear-gradient(90deg, #134E5E 10%, #71B280 90%);*/
+	background-image: url('../images/14.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right center;
+	margin: 0px;
 }
 
 .logo {
@@ -18,3 +24,152 @@ body {
 .info {
 	text-align: center;
 }
+
+.subtitle {
+	text-align: center;
+}
+
+.skill {
+  	list-style: none;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 400px;
+	margin: 50px 35px 0;
+	position: relative;
+	line-height: 2em;
+	padding: 30px 0;
+}
+
+.skill li { 
+	height:20px; 
+	border-radius:10px; 
+	margin-bottom:50px;
+	background: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+.skill li h3 { 
+	position: relative; 
+	top: -35px;
+}
+
+.bar { 
+	height:18px; 
+	margin:1px 2px;  
+	position:absolute;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.html {
+	width:90%; 
+	-moz-animation: html 2s ease-out;
+	-webkit-animation: html 2s ease-out;
+	background: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.css {
+	width:80%;
+	-moz-animation: css 2s ease-out;
+	-webkit-animation: css 2s ease-out;
+	background: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.jquery {
+	width:65%;
+	-moz-animation: jquery 2s ease-out;
+	-webkit-animation: jquery 2s ease-out;
+	background: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background: linear-gradient(top, #66b3cc, #5da3ba);
+}
+
+.javascript {
+	width:75%;
+	-moz-animation: javascript 2s ease-out;
+	-webkit-animation: javascript 2s ease-out;
+	background: -webkit-linear-gradient(top, #ff4d4d, #ff3333);
+	background: -moz-linear-gradient(top, #ff4d4d, #ff3333);
+	background: -ms-linear-gradient(top, #ff4d4d, #ff3333);
+	background: -o-linear-gradient(top, #ff4d4d, #ff3333);
+	background: linear-gradient(top, #ff4d4d, #ff3333);	
+}
+
+.php {
+	width:60%;
+	-moz-animation: php 2s ease-out;
+	-webkit-animation: php 2s ease-out;
+	background: -webkit-linear-gradient(top, #eb0951, #d30848);
+	background: -moz-linear-gradient(top, #eb0951, #d30848);
+	background: -ms-linear-gradient(top, #eb0951, #d30848);
+	background: -o-linear-gradient(top, #eb0951, #d30848);
+	background: linear-gradient(top, #eb0951, #d30848);	
+}
+
+.mysql {
+	width:50%;
+	-moz-animation: mysql 2s ease-out;
+	-webkit-animation: mysql 2s ease-out;
+	background: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background: -moz-linear-gradient(top, #f674a4, #e06995);
+	background: -ms-linear-gradient(top, #f674a4, #e06995);
+	background: -o-linear-gradient(top, #f674a4, #e06995);
+	background: linear-gradient(top, #f674a4, #e06995);	
+}
+
+.gamedev {
+	width:80%;
+	-moz-animation: gamedev 2s ease-out;
+	-webkit-animation: gamedev 2s ease-out;
+	background: -webkit-linear-gradient(top, #2926a9, #242194);
+	background: -moz-linear-gradient(top, #2926a9, #242194);
+	background: -ms-linear-gradient(top, #2926a9, #242194);
+	background: -o-linear-gradient(top, #2926a9, #242194);
+	background: linear-gradient(top, #2926a9, #242194);
+}
+
+.cSharp {
+	width:70%;
+	-moz-animation: cSharp 2s ease-out;
+	-webkit-animation: cSharp 2s ease-out;
+	background: -webkit-linear-gradient(top, #a621ff, #9c07ff);
+	background: -moz-linear-gradient(top, #a621ff, #9c07ff);
+	background: -ms-linear-gradient(top, #a621ff, #9c07ff);
+	background: -o-linear-gradient(top, #a621ff, #9c07ff);
+	background: linear-gradient(top, #a621ff, #9c07ff);	
+}
+
+@-moz-keyframes html { 0%{ width:0px; } 100%{ width:90%; } }
+@-moz-keyframes css { 0%{ width:0px; } 100%{ width:80%; } }
+@-moz-keyframes jquery { 0%{ width:0px; } 100%{ width:65%; } }
+@-moz-keyframes javascript { 0%{ width:0px; } 100%{ width:75%; } }
+@-moz-keyframes php { 0%{ width:0px; } 100%{ width:60%; } }
+@-moz-keyframes mysql { 0%{ width:0px; } 100%{ width:50%; } }
+@-moz-keyframes gamedev { 0%{ width:0px; } 100%{ width:80%; } }
+@-moz-keyframes cSharp { 0%{ width:0px; } 100%{ width:70%; } }
+
+@-webkit-keyframes html { 0%{ width:0px; } 100%{ width:90%; } }
+@-webkit-keyframes css { 0%{ width:0px; } 100%{ width:70%; } }
+@-webkit-keyframes jquery { 0%{ width:0px; } 100%{ width:65%; } }
+@-webkit-keyframes javascript { 0%{ width:0px; } 100%{ width:65%; } }
+@-webkit-keyframes php { 0%{ width:0px; } 100%{ width:60%; } }
+@-webkit-keyframes mysql { 0%{ width:0px; } 100%{ width:50%; } }
+@-webkit-keyframes gamedev { 0%{ width:0px; } 100%{ width:80%; } }
+@-webkit-keyframes cSharp { 0%{ width:0px; } 100%{ width:70%; } }
