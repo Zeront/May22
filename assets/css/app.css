@@ -10,6 +10,7 @@ body {
 	background-size: cover;
 	background-position: right center;
 	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .logo {
@@ -173,3 +174,115 @@ body {
 @-webkit-keyframes mysql { 0%{ width:0px; } 100%{ width:50%; } }
 @-webkit-keyframes gamedev { 0%{ width:0px; } 100%{ width:80%; } }
 @-webkit-keyframes cSharp { 0%{ width:0px; } 100%{ width:70%; } }
+
+.custom-bullet {
+	list-style: none;
+}
+
+.interest {
+	margin: 5px;
+	box-shadow: 0px 0px 0px 3px #ff4d4d inset;
+	border-radius: 5px;
+	margin-left: 100px;
+	margin-right: 100px;
+	line-height: 50px;
+	color: #333;
+	font-weight: bold;
+}
+
+.about {
+	color: #333;
+	font-weight: bold;
+}
+
+.fa-stack {
+	margin-right: 15px;
+}
+
+/*---FACEBOOK---*/
+.facebook {
+  transition: color 0.5s ease;
+  color: rgba(215, 44, 44, 0);
+}
+
+.facebook:hover {
+  color: #3B5998;
+}
+
+.iconF {
+  transition: color 0.5s ease;
+  color: #3B5998;
+  box-shadow: 0px 0px 0px 5px #3B5998 inset;
+  border-radius: 20px;
+}
+
+.iconF:hover {
+  color: #fff;
+}
+
+/*---TWITTER---*/
+.twitter {
+  transition: color 0.5s ease;
+  color: rgba(215, 44, 44, 0);
+}
+
+.twitter:hover {
+  color: #5EA9DD;
+}
+
+.iconT {
+  transition: color 0.5 ease;
+  color: #5EA9DD;
+  box-shadow: 0px 0px 0px 5px #5EA9DD inset;
+  border-radius: 20px;
+}
+
+.iconT:hover {
+  color: #fff;
+}
+
+/*---GOOGLE.PLUS---*/
+.google {
+  transition: color 0.5s ease;
+  color: rgba(215, 44, 44, 0);
+}
+
+.google:hover {
+  color: #DD4B39;
+}
+
+.iconG {
+  transition: color 0.5s ease;
+  color: #DD4B39;
+  box-shadow: 0px 0px 0px 5px #DD4B39 inset;
+  border-radius: 20px;
+}
+
+.iconG:hover {
+  color: #fff;
+}
+
+/*---LINKEDIN---*/
+.linkedin {
+  transition: color 0.5s ease;
+  color: rgba(215, 44, 44, 0);
+}
+
+.linkedin:hover {
+  color: #0077B5;
+}
+
+.iconL {
+  transition: color 0.5s ease;
+  color: #0077B5;
+  box-shadow: 0px 0px 0px 5px #0077B5 inset;
+  border-radius: 20px;
+}
+
+.iconL:hover {
+  color: #fff;
+}
+
+footer {
+	color: #f5f5f5;
+}
